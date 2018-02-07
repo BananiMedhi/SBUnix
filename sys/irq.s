@@ -37,6 +37,7 @@ handler_page_fault:
         popq %rbx
         popq %rax
         popq %rdi
+        addq $8, %rsp
         iretq
 	
 handler_syscall:

@@ -46,9 +46,9 @@ Syscall supported:
 4. close
 5. opendir
 6. readdir
-7.closedir
-8.sleep
-9.getcwd
+7. closedir
+8. sleep
+9. getcwd
 10.waitpid
 11.execve
 12.getpid
@@ -57,7 +57,7 @@ Syscall supported:
 15.exit
 16.chdir
 17.clearscreen
-18. kill
+18.kill
 
 
 --------------------------------- References ---------------------------------
@@ -67,10 +67,13 @@ Syscall supported:
 3. AMD64 Architecture Programmer's Manual Volume 2: System Programming
 4. Bran(OSDEVER)
 5. JamesM's kernel development tutorials 
+6. https://github.com/rajesh5310/SBUnix/tree/master/sys
+7. https://github.com/arpitsardhana/SBUnix
 
 Reference OS (x64):
 1. HelenOS-0.5.0
 2. Shovelos
+
 
 
 
